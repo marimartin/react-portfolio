@@ -23,12 +23,9 @@ export default class About extends Component {
                                 <div className="columns contact-details">
                                     <h2>Contact Details</h2>
                                     <p className="address">
-                                        <span>Jonathan Doe</span><br />
-                                        <span>1600 Amphitheatre Parkway<br />
-                                            Mountain View, CA 94043 US
-                                        </span><br />
-                                        <span>(123)456-7890</span><br />
-                                        <span>anyone@website.com</span>
+                                        <span>Marina Martin</span><br />
+                                        <span>Chicago, IL</span><br />
+                                        <span>marinarosemartin@gmail.com</span>
                                     </p>
                                 </div>
                                 <div className="columns download">
