@@ -110,7 +110,7 @@ export default class Header extends Component {
                                             <li><em>Reactjs</em></li>
                                             <li><em>JavaScript</em></li>
                                             <li><em>SQL</em></li>
-                                            <li><em>NoSQL</em></li>
+                                            <li><em>MongoDB</em></li>
                                             <li><em>AJAX</em></li>
                                         </ul>
                                     </div>

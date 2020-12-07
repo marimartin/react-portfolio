@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class Portfolio extends Component {
     render() {
         return (
@@ -12,7 +13,7 @@ export default class Portfolio extends Component {
                             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-01" title>
+                                        <a href="https://github.com/preronam/plantparenthood" title>
                                             <img alt="" src="/images/portfolio/plantparenthood.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -26,7 +27,7 @@ export default class Portfolio extends Component {
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-02" title>
+                                        <a href="https://github.com/marimartin/book-market" title>
                                             <img alt="" src="/images/portfolio/bookmarket.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -40,7 +41,7 @@ export default class Portfolio extends Component {
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-03" title>
+                                        <a href="https://github.com/marimartin/workout-tracker" title>
                                             <img alt="" src="/images/portfolio/workouttracker.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -54,7 +55,7 @@ export default class Portfolio extends Component {
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-04" title>
+                                        <a href="https://github.com/marimartin/employee-directory" title>
                                             <img alt="" src="/images/portfolio/employeedirectory.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -68,7 +69,7 @@ export default class Portfolio extends Component {
                                 </div> {/* item end */}
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
-                                        <a href="#modal-05" title>
+                                        <a href="https://github.com/marimartin/note-taker" title>
                                             <img alt="" src="/images/portfolio/notetaker.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
@@ -85,101 +86,60 @@ export default class Portfolio extends Component {
                         {/* Modal Popup
 	      --------------------------------------------------------------- */}
                         <div id="modal-01" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
                             <div className="description-box">
-                                <h4>Coffee Cup</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+                                <h4>Plant Parenthood</h4>
+                                <p>This app allows users to search for plants based on personal criterisa. It uses Materialize for styling, MySQL as the database, and Handlebarsjs as a templating language.</p>
+                                <span className="categories"><i className="fa fa-tag" /></span>
                             </div>
                             <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
+                                <a href="https://github.com/preronam/plantparenthood">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-01 End */}
                         <div id="modal-02" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
                             <div className="description-box">
-                                <h4>Console</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                                <h4>Book Market</h4>
+                                <p>Users can use this app to find books by author or title. It mainly uses JS for functionality, including AJAX calls to the Google Books and Goodreads APIs.</p>
+                                <span className="categories"><i className="fa fa-tag" /></span>
                             </div>
                             <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
+                                <a href="https://github.com/marimartin/book-market">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-02 End */}
                         <div id="modal-03" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
                             <div className="description-box">
-                                <h4>Judah</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Branding</span>
+                                <h4>Workout Tracker</h4>
+                                <p>To view, track, and create daily workouts, a user can use this app which stores their data using MongoDB.</p>
+                                <span className="categories"><i className="fa fa-tag" /></span>
                             </div>
                             <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
+                                <a href="https://github.com/marimartin/workout-tracker">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-03 End */}
                         <div id="modal-04" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
                             <div className="description-box">
-                                <h4>Into the Light</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                <h4>Employee Directory</h4>
+                                <p>This app uses react to create a directory of randomly generated employees that can be sorted alphabetically, or searched for using a search box.</p>
                                 <span className="categories"><i className="fa fa-tag" />Photography</span>
                             </div>
                             <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
+                                <a href="https://github.com/marimartin/employee-directory">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-04 End */}
                         <div id="modal-05" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
                             <div className="description-box">
                                 <h4>Farmer Boy</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                <p>Using the Express NPM package, this app allows a user to write, save, and delete notes. It uses an express backend to save and retrieve note data from a JSON file.</p>
                                 <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
                             </div>
                             <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
+                                <a href="https://github.com/marimartin/note-taker">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-05 End */}
-                        <div id="modal-06" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-                            <div className="description-box">
-                                <h4>Girl</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Photography</span>
-                            </div>
-                            <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
-                                <a className="popup-modal-dismiss">Close</a>
-                            </div>
-                        </div>{/* modal-06 End */}
-                        <div id="modal-07" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-                            <div className="description-box">
-                                <h4>Origami</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-                            </div>
-                            <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
-                                <a className="popup-modal-dismiss">Close</a>
-                            </div>
-                        </div>{/* modal-07 End */}
-                        <div id="modal-08" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-                            <div className="description-box">
-                                <h4>Retrocam</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-                            </div>
-                            <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
-                                <a className="popup-modal-dismiss">Close</a>
-                            </div>
-                        </div>{/* modal-01 End */}
                     </div> {/* row End */}
                 </section>
             </React.Fragment>
