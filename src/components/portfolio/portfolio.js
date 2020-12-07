@@ -13,11 +13,11 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-01" title>
-                                            <img alt="" src="images/portfolio/coffee.jpg" />
+                                            <img alt="" src="/images/portfolio/plantparenthood.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Coffee</h5>
-                                                    <p>Illustrration</p>
+                                                    <h5>Plant Parenthood</h5>
+                                                    {/* <p>Illustrration</p> */}
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -27,11 +27,11 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-02" title>
-                                            <img alt="" src="images/portfolio/console.jpg" />
+                                            <img alt="" src="/images/portfolio/bookmarket.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Console</h5>
-                                                    <p>Web Development</p>
+                                                    <h5>Book Market</h5>
+                                                    {/* <p>Web Development</p> */}
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -41,11 +41,11 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-03" title>
-                                            <img alt="" src="images/portfolio/judah.jpg" />
+                                            <img alt="" src="/images/portfolio/workouttracker.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Judah</h5>
-                                                    <p>Webdesign</p>
+                                                    <h5>Workout Tracker</h5>
+                                                    {/* <p>Webdesign</p> */}
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -55,11 +55,11 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-04" title>
-                                            <img alt="" src="images/portfolio/into-the-light.jpg" />
+                                            <img alt="" src="/images/portfolio/employeedirectory.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Into The Light</h5>
-                                                    <p>Photography</p>
+                                                    <h5>Employee Directory</h5>
+                                                    {/* <p>Photography</p> */}
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -69,59 +69,17 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-05" title>
-                                            <img alt="" src="images/portfolio/farmerboy.jpg" />
+                                            <img alt="" src="/images/portfolio/notetaker.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Farmer Boy</h5>
-                                                    <p>Branding</p>
+                                                    <h5>Note Taker</h5>
+                                                    {/* <p>Branding</p> */}
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
                                         </a>
                                     </div>
                                 </div> {/* item end */}
-                                <div className="columns portfolio-item">
-                                    <div className="item-wrap">
-                                        <a href="#modal-06" title>
-                                            <img alt="" src="images/portfolio/girl.jpg" />
-                                            <div className="overlay">
-                                                <div className="portfolio-item-meta">
-                                                    <h5>Girl</h5>
-                                                    <p>Photography</p>
-                                                </div>
-                                            </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
-                                    </div>
-                                </div> {/* item end */}
-                                <div className="columns portfolio-item">
-                                    <div className="item-wrap">
-                                        <a href="#modal-07" title>
-                                            <img alt="" src="images/portfolio/origami.jpg" />
-                                            <div className="overlay">
-                                                <div className="portfolio-item-meta">
-                                                    <h5>Origami</h5>
-                                                    <p>Illustrration</p>
-                                                </div>
-                                            </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
-                                    </div>
-                                </div> {/* item end */}
-                                <div className="columns portfolio-item">
-                                    <div className="item-wrap">
-                                        <a href="#modal-08" title>
-                                            <img alt="" src="images/portfolio/retrocam.jpg" />
-                                            <div className="overlay">
-                                                <div className="portfolio-item-meta">
-                                                    <h5>Retrocam</h5>
-                                                    <p>Web Development</p>
-                                                </div>
-                                            </div>
-                                            <div className="link-icon"><i className="icon-plus" /></div>
-                                        </a>
-                                    </div>
-                                </div>  {/* item end */}
                             </div> {/* portfolio-wrapper end */}
                         </div> {/* twelve columns end */}
                         {/* Modal Popup
