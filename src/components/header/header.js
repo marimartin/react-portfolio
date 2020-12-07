@@ -22,7 +22,7 @@ export default class Header extends Component {
                         <div className="banner-text">
                             <h1 className="responsive-headline">{resumeData.name}</h1>
                             <h3>I am a Chicago based {resumeData.role} with a background in Fine Arts. I love making beautiful things and solving problems.</h3>
-                            <h3>Let's start scrolling and learn more <a className="smoothscroll" href="#about">about me</a>.
+                            <h3>Start scrolling and learn more <a className="smoothscroll" href="#about">about me</a>.
                             </h3>
                             <hr />
                             <ul className="social">

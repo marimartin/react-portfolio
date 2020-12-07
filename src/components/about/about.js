@@ -12,12 +12,9 @@ export default class About extends Component {
                         </div>
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                            <p>My name is Mari and I am a recent graduate from Northwestern's Full-Stack Web Development Bootcamp.
+                            I've enjoyed learning new technologies and implementing them to create some fun projects!
+                            With my background in fine art, I have been able to explore a new creative outlet in coding.
                             </p>
                             <div className="row">
                                 <div className="columns contact-details">
@@ -30,7 +27,7 @@ export default class About extends Component {
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a href="https://drive.google.com/file/d/1y6Uf9Bs-ScrGvZMxCmyzJ7fik6lA50KM/view" target="_blank" className="button"><i className="fa fa-download" />Download Resume</a>
                                     </p>
                                 </div>
                             </div> {/* end row */}

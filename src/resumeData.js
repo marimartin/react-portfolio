@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl": "http://localhost:3000/",
+    "imagebaseurl": "https://github.com/marimartin",
     "name": "Marina Martin",
     "role": "Full-Stack Web Developer"
 }
