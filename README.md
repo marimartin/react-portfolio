@@ -9,9 +9,11 @@
 
  marinarosemartin@gmail.com
 
-  ## Project URL
+  ## Deployed Site
 
-  https://marimartin.github.io/react-portfolio/
+  https://marimartin.herokuapp.com/
+
+  <img src="public/images/portfolioGIF.gif">
 
 
 
